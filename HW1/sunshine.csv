@@ -1,0 +1,85 @@
+sunshine,city,lat,lon,month,monthnum
+69,Seattle,47.6062,-122.332,Jan,0
+108,Seattle,47.6062,-122.332,Feb,1
+178,Seattle,47.6062,-122.332,Mar,2
+207,Seattle,47.6062,-122.332,Apr,3
+253,Seattle,47.6062,-122.332,May,4
+268,Seattle,47.6062,-122.332,Jun,5
+312,Seattle,47.6062,-122.332,Jul,6
+281,Seattle,47.6062,-122.332,Aug,7
+221,Seattle,47.6062,-122.332,Sep,8
+142,Seattle,47.6062,-122.332,Oct,9
+72,Seattle,47.6062,-122.332,Nov,10
+52,Seattle,47.6062,-122.332,Dec,11
+248,Phoenix,33.4311,-112.013,Jan,0
+244,Phoenix,33.4311,-112.013,Feb,1
+314,Phoenix,33.4311,-112.013,Mar,2
+346,Phoenix,33.4311,-112.013,Apr,3
+404,Phoenix,33.4311,-112.013,May,4
+404,Phoenix,33.4311,-112.013,Jun,5
+377,Phoenix,33.4311,-112.013,Jul,6
+351,Phoenix,33.4311,-112.013,Aug,7
+334,Phoenix,33.4311,-112.013,Sep,8
+307,Phoenix,33.4311,-112.013,Oct,9
+267,Phoenix,33.4311,-112.013,Nov,10
+236,Phoenix,33.4311,-112.013,Dec,11
+154,New York,40.69,-74,Jan,0
+171,New York,40.69,-74,Feb,1
+213,New York,40.69,-74,Mar,2
+237,New York,40.69,-74,Apr,3
+268,New York,40.69,-74,May,4
+289,New York,40.69,-74,Jun,5
+302,New York,40.69,-74,Jul,6
+271,New York,40.69,-74,Aug,7
+235,New York,40.69,-74,Sep,8
+213,New York,40.69,-74,Oct,9
+169,New York,40.69,-74,Nov,10
+155,New York,40.69,-74,Dec,11
+135,Chicago,41.8781,-87.6298,Jan,0
+136,Chicago,41.8781,-87.6298,Feb,1
+187,Chicago,41.8781,-87.6298,Mar,2
+215,Chicago,41.8781,-87.6298,Apr,3
+281,Chicago,41.8781,-87.6298,May,4
+311,Chicago,41.8781,-87.6298,Jun,5
+318,Chicago,41.8781,-87.6298,Jul,6
+283,Chicago,41.8781,-87.6298,Aug,7
+226,Chicago,41.8781,-87.6298,Sep,8
+193,Chicago,41.8781,-87.6298,Oct,9
+113,Chicago,41.8781,-87.6298,Nov,10
+106,Chicago,41.8781,-87.6298,Dec,11
+144,Houston,29.7602,-95.3694,Jan,0
+141,Houston,29.7602,-95.3694,Feb,1
+193,Houston,29.7602,-95.3694,Mar,2
+212,Houston,29.7602,-95.3694,Apr,3
+266,Houston,29.7602,-95.3694,May,4
+298,Houston,29.7602,-95.3694,Jun,5
+294,Houston,29.7602,-95.3694,Jul,6
+281,Houston,29.7602,-95.3694,Aug,7
+238,Houston,29.7602,-95.3694,Sep,8
+239,Houston,29.7602,-95.3694,Oct,9
+181,Houston,29.7602,-95.3694,Nov,10
+146,Houston,29.7602,-95.3694,Dec,11
+222,Miami,25.7954,-80.2901,Jan,0
+227,Miami,25.7954,-80.2901,Feb,1
+266,Miami,25.7954,-80.2901,Mar,2
+275,Miami,25.7954,-80.2901,Apr,3
+280,Miami,25.7954,-80.2901,May,4
+251,Miami,25.7954,-80.2901,Jun,5
+267,Miami,25.7954,-80.2901,Jul,6
+263,Miami,25.7954,-80.2901,Aug,7
+216,Miami,25.7954,-80.2901,Sep,8
+215,Miami,25.7954,-80.2901,Oct,9
+212,Miami,25.7954,-80.2901,Nov,10
+209,Miami,25.7954,-80.2901,Dec,11
+137,Salt Lake City,40.7884,-111.978,Jan,0
+155,Salt Lake City,40.7884,-111.978,Feb,1
+227,Salt Lake City,40.7884,-111.978,Mar,2
+269,Salt Lake City,40.7884,-111.978,Apr,3
+329,Salt Lake City,40.7884,-111.978,May,4
+358,Salt Lake City,40.7884,-111.978,Jun,5
+377,Salt Lake City,40.7884,-111.978,Jul,6
+346,Salt Lake City,40.7884,-111.978,Aug,7
+306,Salt Lake City,40.7884,-111.978,Sep,8
+249,Salt Lake City,40.7884,-111.978,Oct,9
+171,Salt Lake City,40.7884,-111.978,Nov,10
+135,Salt Lake City,40.7884,-111.978,Dec,11
