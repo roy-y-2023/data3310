@@ -410,23 +410,23 @@ mpg_weight_chart.properties(width=600, height=600, title="MPG vs Weight of Cars 
 
 
 <style>
-  #altair-viz-559a45df36c44bc883932dc73c6b80a2.vega-embed {
+  #altair-viz-5733650e2b6445aabc864c0519adfe46.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-559a45df36c44bc883932dc73c6b80a2.vega-embed details,
-  #altair-viz-559a45df36c44bc883932dc73c6b80a2.vega-embed details summary {
+  #altair-viz-5733650e2b6445aabc864c0519adfe46.vega-embed details,
+  #altair-viz-5733650e2b6445aabc864c0519adfe46.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-559a45df36c44bc883932dc73c6b80a2"></div>
+<div id="altair-viz-5733650e2b6445aabc864c0519adfe46"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-559a45df36c44bc883932dc73c6b80a2") {
-      outputDiv = document.getElementById("altair-viz-559a45df36c44bc883932dc73c6b80a2");
+    if (outputDiv.id !== "altair-viz-5733650e2b6445aabc864c0519adfe46") {
+      outputDiv = document.getElementById("altair-viz-5733650e2b6445aabc864c0519adfe46");
     }
 
     const paths = {
@@ -486,7 +486,7 @@ mpg_weight_chart.properties(width=600, height=600, title="MPG vs Weight of Cars 
 
 - What are the marks you chose for this graphic? Why are these marks applicable and useful here? What others would have been appropriate?
 
-  I used Point as marks so the result product is a scatter plot. Since there are multiple entries in the data and each of them are independent.
+  I used Point as marks so the result product is a scatter plot. Since there are multiple entries in the data and each of them are independent. Can also use shape to encode Year if aggregated to decade level.
 
 - Did you make any changes to the data type, scales, or other properties of the graph? How do these changes aid in interpretation?
 
@@ -550,23 +550,23 @@ combined_weight_mpg_chart
 
 
 <style>
-  #altair-viz-5eebb52890134172a4e436d6917f7910.vega-embed {
+  #altair-viz-56857019a2c2420abc1239d3b7855105.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-5eebb52890134172a4e436d6917f7910.vega-embed details,
-  #altair-viz-5eebb52890134172a4e436d6917f7910.vega-embed details summary {
+  #altair-viz-56857019a2c2420abc1239d3b7855105.vega-embed details,
+  #altair-viz-56857019a2c2420abc1239d3b7855105.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-5eebb52890134172a4e436d6917f7910"></div>
+<div id="altair-viz-56857019a2c2420abc1239d3b7855105"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-5eebb52890134172a4e436d6917f7910") {
-      outputDiv = document.getElementById("altair-viz-5eebb52890134172a4e436d6917f7910");
+    if (outputDiv.id !== "altair-viz-56857019a2c2420abc1239d3b7855105") {
+      outputDiv = document.getElementById("altair-viz-56857019a2c2420abc1239d3b7855105");
     }
 
     const paths = {
@@ -626,7 +626,7 @@ combined_weight_mpg_chart
 
 - What are the marks you chose for this graphic? Why are these marks applicable and useful here? What others would have been appropriate?
 
-  I used Link as marks to make this multi-series line chart. Since the input variable is continuous, so the line chart is good to show the trend.
+  I used Link as marks to make this multi-series line chart. Since the input variable is continuous, so the line chart is good to show the trend. Can also use color saturation to encode MPG as a dot on each year.
 
 - Did you make any changes to the data type, scales, or other properties of the graph? How do these changes aid in interpretation?
 
@@ -701,23 +701,23 @@ combined_mpg_weight_chart
 
 
 <style>
-  #altair-viz-fec21e2ef87f4280a025e7bcc9b93af4.vega-embed {
+  #altair-viz-4f01c9f030ab4045a68f951d0cdaabe3.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-fec21e2ef87f4280a025e7bcc9b93af4.vega-embed details,
-  #altair-viz-fec21e2ef87f4280a025e7bcc9b93af4.vega-embed details summary {
+  #altair-viz-4f01c9f030ab4045a68f951d0cdaabe3.vega-embed details,
+  #altair-viz-4f01c9f030ab4045a68f951d0cdaabe3.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-fec21e2ef87f4280a025e7bcc9b93af4"></div>
+<div id="altair-viz-4f01c9f030ab4045a68f951d0cdaabe3"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-fec21e2ef87f4280a025e7bcc9b93af4") {
-      outputDiv = document.getElementById("altair-viz-fec21e2ef87f4280a025e7bcc9b93af4");
+    if (outputDiv.id !== "altair-viz-4f01c9f030ab4045a68f951d0cdaabe3") {
+      outputDiv = document.getElementById("altair-viz-4f01c9f030ab4045a68f951d0cdaabe3");
     }
 
     const paths = {
@@ -777,7 +777,7 @@ combined_mpg_weight_chart
 
 - What are the marks you chose for this graphic? Why are these marks applicable and useful here? What others would have been appropriate?
 
-  I used Link as marks to make this multi-series line chart. Since the input variable is continuous, so the line chart is good to show the trend.
+  I used Link as marks to make this multi-series line chart. Since the input variable is continuous, so the line chart is good to show the trend. Can also use color saturation to encode Weight as a dot on each year.
 
 - Did you make any changes to the data type, scales, or other properties of the graph? How do these changes aid in interpretation?
 
@@ -815,23 +815,23 @@ ineffective_weight_year_chart.properties(width=600, height=400, title="Weight of
 
 
 <style>
-  #altair-viz-5cad1a0e9fed49aa92b80a4dc3ef527c.vega-embed {
+  #altair-viz-7888dc33277140fca8740421ed5275f0.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-5cad1a0e9fed49aa92b80a4dc3ef527c.vega-embed details,
-  #altair-viz-5cad1a0e9fed49aa92b80a4dc3ef527c.vega-embed details summary {
+  #altair-viz-7888dc33277140fca8740421ed5275f0.vega-embed details,
+  #altair-viz-7888dc33277140fca8740421ed5275f0.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-5cad1a0e9fed49aa92b80a4dc3ef527c"></div>
+<div id="altair-viz-7888dc33277140fca8740421ed5275f0"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-5cad1a0e9fed49aa92b80a4dc3ef527c") {
-      outputDiv = document.getElementById("altair-viz-5cad1a0e9fed49aa92b80a4dc3ef527c");
+    if (outputDiv.id !== "altair-viz-7888dc33277140fca8740421ed5275f0") {
+      outputDiv = document.getElementById("altair-viz-7888dc33277140fca8740421ed5275f0");
     }
 
     const paths = {
