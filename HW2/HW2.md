@@ -529,7 +529,7 @@ combined_weight_mpg_chart = alt.layer(
         color=alt.datum("Mean Weight"),
         strokeDash=alt.datum("Mean Weight")
     ),
-    combined_chart_base.mark_line().encode(
+    combined_chart_base.mark_line(opacity=0.2).encode(
         y=alt.Y("MPG_mean:Q", title="Miles per Gallon", axis=alt.Axis(orient="right")),
         color=alt.datum("Mean MPG"),
         strokeDash=alt.datum("Mean MPG")
@@ -537,7 +537,7 @@ combined_weight_mpg_chart = alt.layer(
 ).resolve_scale(
     y="independent"
 ).configure_range(
-    category=["lightblue", "blue", "pink"],
+    category=["lightblue", "blue", "red"],
     strokeDash=[[1, 0], [1, 0], [5, 5]]
 ).properties(width=600, height=400, title="Weight and Miles per Gallon Over Years")
 
@@ -550,23 +550,23 @@ combined_weight_mpg_chart
 
 
 <style>
-  #altair-viz-56857019a2c2420abc1239d3b7855105.vega-embed {
+  #altair-viz-6e279e132bfe4c3eb8c4a03e175fd1d5.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-56857019a2c2420abc1239d3b7855105.vega-embed details,
-  #altair-viz-56857019a2c2420abc1239d3b7855105.vega-embed details summary {
+  #altair-viz-6e279e132bfe4c3eb8c4a03e175fd1d5.vega-embed details,
+  #altair-viz-6e279e132bfe4c3eb8c4a03e175fd1d5.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-56857019a2c2420abc1239d3b7855105"></div>
+<div id="altair-viz-6e279e132bfe4c3eb8c4a03e175fd1d5"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-56857019a2c2420abc1239d3b7855105") {
-      outputDiv = document.getElementById("altair-viz-56857019a2c2420abc1239d3b7855105");
+    if (outputDiv.id !== "altair-viz-6e279e132bfe4c3eb8c4a03e175fd1d5") {
+      outputDiv = document.getElementById("altair-viz-6e279e132bfe4c3eb8c4a03e175fd1d5");
     }
 
     const paths = {
@@ -614,7 +614,7 @@ combined_weight_mpg_chart
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "range": {"category": ["lightblue", "blue", "pink"], "strokeDash": [[1, 0], [1, 0], [5, 5]]}}, "layer": [{"mark": {"type": "area", "opacity": 0.3}, "encoding": {"color": {"datum": "Weight Min-Max Range"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"axis": null, "field": "Weight_min", "scale": {"domain": [1613.0, 5140.0]}, "type": "quantitative"}, "y2": {"field": "Weight_max"}}}, {"mark": {"type": "line"}, "encoding": {"color": {"datum": "Mean Weight"}, "strokeDash": {"datum": "Mean Weight"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"axis": {"orient": "left"}, "field": "Weight_mean", "scale": {"domain": [1613.0, 5140.0]}, "title": "Weight (lbs)", "type": "quantitative"}}}, {"mark": {"type": "line"}, "encoding": {"color": {"datum": "Mean MPG"}, "strokeDash": {"datum": "Mean MPG"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"axis": {"orient": "right"}, "field": "MPG_mean", "title": "Miles per Gallon", "type": "quantitative"}}}], "data": {"name": "data-e413e256781d33d3fa066f7993c6eb6e"}, "height": 400, "resolve": {"scale": {"y": "independent"}}, "title": "Weight and Miles per Gallon Over Years", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-e413e256781d33d3fa066f7993c6eb6e": [{"Year": "1970-01-01T00:00:00", "Weight_min": 1835, "Weight_max": 4732, "Weight_mean": 3441.3142857142857, "MPG_mean": 17.689655172413794}, {"Year": "1971-01-01T00:00:00", "Weight_min": 1613, "Weight_max": 5140, "Weight_mean": 2960.344827586207, "MPG_mean": 21.25}, {"Year": "1972-01-01T00:00:00", "Weight_min": 2100, "Weight_max": 4633, "Weight_mean": 3237.714285714286, "MPG_mean": 18.714285714285715}, {"Year": "1973-01-01T00:00:00", "Weight_min": 1867, "Weight_max": 4997, "Weight_mean": 3419.025, "MPG_mean": 17.1}, {"Year": "1974-01-01T00:00:00", "Weight_min": 1649, "Weight_max": 4699, "Weight_mean": 2877.925925925926, "MPG_mean": 22.703703703703702}, {"Year": "1975-01-01T00:00:00", "Weight_min": 1795, "Weight_max": 4668, "Weight_mean": 3176.8, "MPG_mean": 20.266666666666666}, {"Year": "1976-01-01T00:00:00", "Weight_min": 1795, "Weight_max": 4380, "Weight_mean": 3078.735294117647, "MPG_mean": 21.573529411764707}, {"Year": "1977-01-01T00:00:00", "Weight_min": 1825, "Weight_max": 4335, "Weight_mean": 2997.3571428571427, "MPG_mean": 23.375}, {"Year": "1978-01-01T00:00:00", "Weight_min": 1800, "Weight_max": 4080, "Weight_mean": 2861.8055555555557, "MPG_mean": 24.061111111111114}, {"Year": "1979-01-01T00:00:00", "Weight_min": 1915, "Weight_max": 4360, "Weight_mean": 3055.344827586207, "MPG_mean": 25.093103448275862}, {"Year": "1980-01-01T00:00:00", "Weight_min": 1835, "Weight_max": 3381, "Weight_mean": 2436.655172413793, "MPG_mean": 33.69655172413793}, {"Year": "1982-01-01T00:00:00", "Weight_min": 1755, "Weight_max": 3725, "Weight_mean": 2492.2131147540986, "MPG_mean": 31.045}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "range": {"category": ["lightblue", "blue", "red"], "strokeDash": [[1, 0], [1, 0], [5, 5]]}}, "layer": [{"mark": {"type": "area", "opacity": 0.3}, "encoding": {"color": {"datum": "Weight Min-Max Range"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"axis": null, "field": "Weight_min", "scale": {"domain": [1613.0, 5140.0]}, "type": "quantitative"}, "y2": {"field": "Weight_max"}}}, {"mark": {"type": "line"}, "encoding": {"color": {"datum": "Mean Weight"}, "strokeDash": {"datum": "Mean Weight"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"axis": {"orient": "left"}, "field": "Weight_mean", "scale": {"domain": [1613.0, 5140.0]}, "title": "Weight (lbs)", "type": "quantitative"}}}, {"mark": {"type": "line", "opacity": 0.2}, "encoding": {"color": {"datum": "Mean MPG"}, "strokeDash": {"datum": "Mean MPG"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"axis": {"orient": "right"}, "field": "MPG_mean", "title": "Miles per Gallon", "type": "quantitative"}}}], "data": {"name": "data-e413e256781d33d3fa066f7993c6eb6e"}, "height": 400, "resolve": {"scale": {"y": "independent"}}, "title": "Weight and Miles per Gallon Over Years", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-e413e256781d33d3fa066f7993c6eb6e": [{"Year": "1970-01-01T00:00:00", "Weight_min": 1835, "Weight_max": 4732, "Weight_mean": 3441.3142857142857, "MPG_mean": 17.689655172413794}, {"Year": "1971-01-01T00:00:00", "Weight_min": 1613, "Weight_max": 5140, "Weight_mean": 2960.344827586207, "MPG_mean": 21.25}, {"Year": "1972-01-01T00:00:00", "Weight_min": 2100, "Weight_max": 4633, "Weight_mean": 3237.714285714286, "MPG_mean": 18.714285714285715}, {"Year": "1973-01-01T00:00:00", "Weight_min": 1867, "Weight_max": 4997, "Weight_mean": 3419.025, "MPG_mean": 17.1}, {"Year": "1974-01-01T00:00:00", "Weight_min": 1649, "Weight_max": 4699, "Weight_mean": 2877.925925925926, "MPG_mean": 22.703703703703702}, {"Year": "1975-01-01T00:00:00", "Weight_min": 1795, "Weight_max": 4668, "Weight_mean": 3176.8, "MPG_mean": 20.266666666666666}, {"Year": "1976-01-01T00:00:00", "Weight_min": 1795, "Weight_max": 4380, "Weight_mean": 3078.735294117647, "MPG_mean": 21.573529411764707}, {"Year": "1977-01-01T00:00:00", "Weight_min": 1825, "Weight_max": 4335, "Weight_mean": 2997.3571428571427, "MPG_mean": 23.375}, {"Year": "1978-01-01T00:00:00", "Weight_min": 1800, "Weight_max": 4080, "Weight_mean": 2861.8055555555557, "MPG_mean": 24.061111111111114}, {"Year": "1979-01-01T00:00:00", "Weight_min": 1915, "Weight_max": 4360, "Weight_mean": 3055.344827586207, "MPG_mean": 25.093103448275862}, {"Year": "1980-01-01T00:00:00", "Weight_min": 1835, "Weight_max": 3381, "Weight_mean": 2436.655172413793, "MPG_mean": 33.69655172413793}, {"Year": "1982-01-01T00:00:00", "Weight_min": 1755, "Weight_max": 3725, "Weight_mean": 2492.2131147540986, "MPG_mean": 31.045}]}}, {"mode": "vega-lite"});
 </script>
 
 
@@ -672,7 +672,7 @@ mpg_layers = alt.layer(
         strokeDash=alt.datum("Mean MPG")
     )
 )
-weight_layer = mpg_weight_base.mark_line().encode(
+weight_layer = mpg_weight_base.mark_line(opacity=0.2).encode(
     y=alt.Y("Weight_mean:Q", title="Weight (lbs)"),
     color=alt.datum("Mean Weight"),
     strokeDash=alt.datum("Mean Weight")
@@ -684,7 +684,7 @@ combined_mpg_weight_chart = alt.layer(
 ).resolve_scale(
     y="independent"
 ).configure_range(
-    category=["lightblue", "blue", "pink"],
+    category=["lightblue", "blue", "red"],
     strokeDash=[[1, 0], [1, 0], [5, 5]]
 ).properties(
     width=600,
@@ -701,23 +701,23 @@ combined_mpg_weight_chart
 
 
 <style>
-  #altair-viz-4f01c9f030ab4045a68f951d0cdaabe3.vega-embed {
+  #altair-viz-beb0b6e28a2e45cdbf409eb0f55705f4.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-4f01c9f030ab4045a68f951d0cdaabe3.vega-embed details,
-  #altair-viz-4f01c9f030ab4045a68f951d0cdaabe3.vega-embed details summary {
+  #altair-viz-beb0b6e28a2e45cdbf409eb0f55705f4.vega-embed details,
+  #altair-viz-beb0b6e28a2e45cdbf409eb0f55705f4.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-4f01c9f030ab4045a68f951d0cdaabe3"></div>
+<div id="altair-viz-beb0b6e28a2e45cdbf409eb0f55705f4"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4f01c9f030ab4045a68f951d0cdaabe3") {
-      outputDiv = document.getElementById("altair-viz-4f01c9f030ab4045a68f951d0cdaabe3");
+    if (outputDiv.id !== "altair-viz-beb0b6e28a2e45cdbf409eb0f55705f4") {
+      outputDiv = document.getElementById("altair-viz-beb0b6e28a2e45cdbf409eb0f55705f4");
     }
 
     const paths = {
@@ -765,7 +765,7 @@ combined_mpg_weight_chart
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "range": {"category": ["lightblue", "blue", "pink"], "strokeDash": [[1, 0], [1, 0], [5, 5]]}}, "layer": [{"layer": [{"mark": {"type": "area", "opacity": 0.3}, "encoding": {"color": {"datum": "Miles per Gallon Range"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"field": "MPG_min", "title": "Miles per Gallon", "type": "quantitative"}, "y2": {"field": "MPG_max"}}}, {"mark": {"type": "line"}, "encoding": {"color": {"datum": "Mean MPG"}, "strokeDash": {"datum": "Mean MPG"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"field": "MPG_mean", "type": "quantitative"}}}]}, {"mark": {"type": "line"}, "encoding": {"color": {"datum": "Mean Weight"}, "strokeDash": {"datum": "Mean Weight"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"field": "Weight_mean", "title": "Weight (lbs)", "type": "quantitative"}}}], "data": {"name": "data-3cb9c3e27b4f30e9175820def8302151"}, "height": 400, "resolve": {"scale": {"y": "independent"}}, "title": "Miles per Gallon and Weight Over Time", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-3cb9c3e27b4f30e9175820def8302151": [{"Year": "1970-01-01T00:00:00", "Weight_mean": 3441.3142857142857, "MPG_min": 9.0, "MPG_max": 27.0, "MPG_mean": 17.689655172413794}, {"Year": "1971-01-01T00:00:00", "Weight_mean": 2960.344827586207, "MPG_min": 12.0, "MPG_max": 35.0, "MPG_mean": 21.25}, {"Year": "1972-01-01T00:00:00", "Weight_mean": 3237.714285714286, "MPG_min": 11.0, "MPG_max": 28.0, "MPG_mean": 18.714285714285715}, {"Year": "1973-01-01T00:00:00", "Weight_mean": 3419.025, "MPG_min": 11.0, "MPG_max": 29.0, "MPG_mean": 17.1}, {"Year": "1974-01-01T00:00:00", "Weight_mean": 2877.925925925926, "MPG_min": 13.0, "MPG_max": 32.0, "MPG_mean": 22.703703703703702}, {"Year": "1975-01-01T00:00:00", "Weight_mean": 3176.8, "MPG_min": 13.0, "MPG_max": 33.0, "MPG_mean": 20.266666666666666}, {"Year": "1976-01-01T00:00:00", "Weight_mean": 3078.735294117647, "MPG_min": 13.0, "MPG_max": 33.0, "MPG_mean": 21.573529411764707}, {"Year": "1977-01-01T00:00:00", "Weight_mean": 2997.3571428571427, "MPG_min": 15.0, "MPG_max": 36.0, "MPG_mean": 23.375}, {"Year": "1978-01-01T00:00:00", "Weight_mean": 2861.8055555555557, "MPG_min": 16.2, "MPG_max": 43.1, "MPG_mean": 24.061111111111114}, {"Year": "1979-01-01T00:00:00", "Weight_mean": 3055.344827586207, "MPG_min": 15.5, "MPG_max": 37.3, "MPG_mean": 25.093103448275862}, {"Year": "1980-01-01T00:00:00", "Weight_mean": 2436.655172413793, "MPG_min": 19.1, "MPG_max": 46.6, "MPG_mean": 33.69655172413793}, {"Year": "1982-01-01T00:00:00", "Weight_mean": 2492.2131147540986, "MPG_min": 17.6, "MPG_max": 44.0, "MPG_mean": 31.045}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "range": {"category": ["lightblue", "blue", "red"], "strokeDash": [[1, 0], [1, 0], [5, 5]]}}, "layer": [{"layer": [{"mark": {"type": "area", "opacity": 0.3}, "encoding": {"color": {"datum": "Miles per Gallon Range"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"field": "MPG_min", "title": "Miles per Gallon", "type": "quantitative"}, "y2": {"field": "MPG_max"}}}, {"mark": {"type": "line"}, "encoding": {"color": {"datum": "Mean MPG"}, "strokeDash": {"datum": "Mean MPG"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"field": "MPG_mean", "type": "quantitative"}}}]}, {"mark": {"type": "line", "opacity": 0.2}, "encoding": {"color": {"datum": "Mean Weight"}, "strokeDash": {"datum": "Mean Weight"}, "x": {"field": "Year", "title": "Year", "type": "temporal"}, "y": {"field": "Weight_mean", "title": "Weight (lbs)", "type": "quantitative"}}}], "data": {"name": "data-3cb9c3e27b4f30e9175820def8302151"}, "height": 400, "resolve": {"scale": {"y": "independent"}}, "title": "Miles per Gallon and Weight Over Time", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-3cb9c3e27b4f30e9175820def8302151": [{"Year": "1970-01-01T00:00:00", "Weight_mean": 3441.3142857142857, "MPG_min": 9.0, "MPG_max": 27.0, "MPG_mean": 17.689655172413794}, {"Year": "1971-01-01T00:00:00", "Weight_mean": 2960.344827586207, "MPG_min": 12.0, "MPG_max": 35.0, "MPG_mean": 21.25}, {"Year": "1972-01-01T00:00:00", "Weight_mean": 3237.714285714286, "MPG_min": 11.0, "MPG_max": 28.0, "MPG_mean": 18.714285714285715}, {"Year": "1973-01-01T00:00:00", "Weight_mean": 3419.025, "MPG_min": 11.0, "MPG_max": 29.0, "MPG_mean": 17.1}, {"Year": "1974-01-01T00:00:00", "Weight_mean": 2877.925925925926, "MPG_min": 13.0, "MPG_max": 32.0, "MPG_mean": 22.703703703703702}, {"Year": "1975-01-01T00:00:00", "Weight_mean": 3176.8, "MPG_min": 13.0, "MPG_max": 33.0, "MPG_mean": 20.266666666666666}, {"Year": "1976-01-01T00:00:00", "Weight_mean": 3078.735294117647, "MPG_min": 13.0, "MPG_max": 33.0, "MPG_mean": 21.573529411764707}, {"Year": "1977-01-01T00:00:00", "Weight_mean": 2997.3571428571427, "MPG_min": 15.0, "MPG_max": 36.0, "MPG_mean": 23.375}, {"Year": "1978-01-01T00:00:00", "Weight_mean": 2861.8055555555557, "MPG_min": 16.2, "MPG_max": 43.1, "MPG_mean": 24.061111111111114}, {"Year": "1979-01-01T00:00:00", "Weight_mean": 3055.344827586207, "MPG_min": 15.5, "MPG_max": 37.3, "MPG_mean": 25.093103448275862}, {"Year": "1980-01-01T00:00:00", "Weight_mean": 2436.655172413793, "MPG_min": 19.1, "MPG_max": 46.6, "MPG_mean": 33.69655172413793}, {"Year": "1982-01-01T00:00:00", "Weight_mean": 2492.2131147540986, "MPG_min": 17.6, "MPG_max": 44.0, "MPG_mean": 31.045}]}}, {"mode": "vega-lite"});
 </script>
 
 
