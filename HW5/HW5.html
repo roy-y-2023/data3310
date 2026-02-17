@@ -14829,7 +14829,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Justifications">Justifications<a class="anchor-link" href="#Justifications">&#182;</a></h3><p>While the original plot did use color scheme that is somewhat color vision deficiency/colorblind-friendly, it still suffers from overplotting for which makes it difficult for/to: 1) add redundant encoding (e.g. shape) because of the visual clutter; 2) cognitive impairment for users to understand the plot because there are too much going on in the plot, it's neither simple nor clean.</p>
 <p>Additionally, the generated plot is an image, which is not accessible to screen readers. Unfortunately, Altair doesn't have native support for adding alt text to the generated charts (i.e. I can add subtitles but they will become part of the image), fully fix this issue would require manually patching the exported HTML file.</p>
-<p>Due to this technical limitation, I decided to simpler plots with less visual clutter, and add direct labels to make it easier to understand without relying on the axis labels or tooltip/mouse hover, as well as adding subtitles to explain the key insights.</p>
+<p>Due to this technical limitation, I decided to make simpler plots with less visual clutter, that box-plots effectively summarized the center and spread of the data, and add direct labels to make it easier to understand without relying on the axis labels or tooltip/mouse hover, as well as adding subtitles to explain the key insights.</p>
 
 </div>
 </div>
