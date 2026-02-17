@@ -4,5 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "altair>=6.0.0",
     "ipykernel>=7.2.0",
+    "pandas>=3.0.0",
+    "pandas-stubs~=3.0.0",
+    "ubconvert>=4.2.6",
 ]
